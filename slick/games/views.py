@@ -7,3 +7,7 @@ def main(request):
 
 def pair(request):
     return render(request, 'pair/pair.html')
+
+
+def life(request):
+    return render(request, 'life/life.html')

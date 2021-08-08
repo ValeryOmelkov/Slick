@@ -32,11 +32,11 @@ class level {
     
             const divFront: HTMLElement = this._createDivBlock(
                 'rounded card__face card__face--front border border-dark',
-                `<img src="/static/games/image/pair/back.png" class="cardImage">`);
+                `<img src="/static/games/image/pair/back.png" style="height: auto; width: 100%;">`);
     
             const divBack: HTMLElement = this._createDivBlock(
                 'rounded card__face card__face--back border border-dark',
-                `<img src="/static/games/image/pair/${this._cards[i].src}" class="cardImage">`);
+                `<img src="/static/games/image/pair/${this._cards[i].src}" style="height: auto; width: 100%;">`);
     
             this._field.append(divScene);
             divScene.append(divCard);

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "outFile": "dist/build.js"
+    },
+    "files": [
+        "ts/game.ts",
+        "ts/cell.ts",
+        "ts/biom.ts",
+        "ts/perline.ts",
+    ]
+}
