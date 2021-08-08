@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
+{% load static %}
 
-{% block style %}{% include 'games/style.html' %}{% endblock %}
+{% block style %}<link href="{% static 'games/css/games_style.css' %}" rel='stylesheet'>{% endblock %}
 {% block title %}Игры{% endblock %}
 
 
@@ -8,10 +9,12 @@
     <div style="background-color: #e5e5e5;">
         <div class="box">
             <div>
-                <div class="block">
-                    <div class="top"></div>
-                    <div class="bottom"><p class="title-block">Пары</p></div>
-                </div>
+                <a href='pair'>
+                    <div class="block">
+                        <div class="top"><img class="image_block" src="{% static 'games/image/games/pair.png' %}"></div>
+                        <div class="bottom"><p class="title-block">Пары</p></div>
+                    </div>
+                </a>
                 <div class="block mid">
                     <div class="top"></div>
                     <div class="bottom"><p class="title-block">Жизнь</p></div>

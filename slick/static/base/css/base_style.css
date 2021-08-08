@@ -1,0 +1,13 @@
+html {
+    background-color: #e5e5e5;
+}
+
+div.title {
+    height: 60px;
+}
+
+.title {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}

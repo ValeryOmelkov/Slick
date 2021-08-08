@@ -1,0 +1,13 @@
+div.title {
+    height: 60px;
+}
+
+.title {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a {
+    text-decoration: none; 
+}
