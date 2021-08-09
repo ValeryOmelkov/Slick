@@ -6,4 +6,5 @@ urlpatterns = [
     path('', main),
     path('pair/', pair),
     path('life/', life),
+    path('snake/', snake),
 ]

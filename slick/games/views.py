@@ -11,3 +11,7 @@ def pair(request):
 
 def life(request):
     return render(request, 'life/life.html')
+
+
+def snake(request):
+    return render(request, 'snake/snake.html')
