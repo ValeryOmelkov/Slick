@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}<link href="{% static 'games/css/tanks_style.css' %}" rel='stylesheet'>{% endblock %}
+{% block title %}Танчики{% endblock %}
+
+{% block body %}
+    <div class="wrap">
+        <canvas id="canvas" class="field" width="700px" height="700px"></canvas>    
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'games/js/tanks/dist/build.js' %}"></script>
+{% endblock %}

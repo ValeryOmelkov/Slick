@@ -15,3 +15,7 @@ def life(request):
 
 def snake(request):
     return render(request, 'snake/snake.html')
+
+
+def tanks(request):
+    return render(request, 'tanks/tanks.html')
