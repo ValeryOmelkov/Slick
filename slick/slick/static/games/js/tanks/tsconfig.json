@@ -4,6 +4,13 @@
         "outFile": "dist/build.js"
     },
     "files": [
+        "ts/level.ts",
+        "ts/block.ts",
+        "ts/brick.ts",
+        "ts/steel.ts",
+        "ts/water.ts",
+        "ts/bush.ts",
+        "ts/bullet.ts",
         "ts/tank.ts",
         "ts/game.ts",
     ]

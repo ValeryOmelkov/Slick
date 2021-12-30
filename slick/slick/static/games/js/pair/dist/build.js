@@ -57,16 +57,16 @@ class Game {
         this._field.innerHTML = '';
     }
     _createTypeOfCard() {
-        const Book = { name: 'book', src: 'book.png' };
-        const Bug = { name: 'bug', src: 'bug.png' };
-        const Gear = { name: 'gear', src: 'gear.png' };
-        const Head = { name: 'head', src: 'head.png' };
-        const Laptop = { name: 'laptop', src: 'laptop.png' };
+        const Book =      { name: 'book',      src: 'book.png' };
+        const Bug =       { name: 'bug',       src: 'bug.png' };
+        const Gear =      { name: 'gear',      src: 'gear.png' };
+        const Head =      { name: 'head',      src: 'head.png' };
+        const Laptop =    { name: 'laptop',    src: 'laptop.png' };
         const Algorithm = { name: 'algorithm', src: 'algorithm.png' };
-        const Loupe = { name: 'loupe', src: 'loupe.png' };
-        const Men = { name: 'men', src: 'men.png' };
-        const Phone = { name: 'phone', src: 'phone.png' };
-        const Tablet = { name: 'tablet', src: 'tablet.png' };
+        const Loupe =     { name: 'loupe',     src: 'loupe.png' };
+        const Men =       { name: 'men',       src: 'men.png' };
+        const Phone =     { name: 'phone',     src: 'phone.png' };
+        const Tablet =    { name: 'tablet',    src: 'tablet.png' };
         return [Book, Bug, Gear, Head, Laptop, Algorithm, Loupe, Men, Phone, Tablet];
     }
     _setPoint(point) {

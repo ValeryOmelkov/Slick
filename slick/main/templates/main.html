@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}<link href="{% static 'games/css/card_style.css' %}" rel='stylesheet'>{% endblock %}
+{% block title %}Главная страница{% endblock %}
+
+
+{% block body %}
+    <div style="background-color: #e5e5e5;">
+        <div class="box">
+            <div>
+                <a href='games'>
+                    <div class="block">
+                        <div class="top"><img class="image_block" src="{% static 'main/image/games.png' %}"></div>
+                        <div class="bottom"><p class="title-block">Игры</p></div>
+                    </div>
+                </a>
+                <a href='sorting'>
+                    <div class="block mid">
+                        <div class="top"><img class="image_block" src="{% static 'main/image/sorted.png' %}"></div>
+                        <div class="bottom"><p class="title-block">Сортировки</p></div>
+                    </div>
+                </a>
+                <a href='abc'>
+                    <div class="block">
+                        <div class="top"></div>
+                        <div class="bottom"><p class="title-block">Что-то еще</p></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+
+{% endblock %}

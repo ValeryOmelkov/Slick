@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}<link href="{% static 'sorts/css/bubble_style.css' %}" rel='stylesheet'>{% endblock %}
+{% block title %}Пузырьковая сортировка{% endblock %}
+
+{% block body %}
+    <div class="wrap">
+        <canvas id="canvas" class="field" width="1000px" height="500px"></canvas>    
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'sorts/js/bubble/dist/build.js' %}"></script>
+{% endblock %}

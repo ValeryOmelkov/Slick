@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "outFile": "dist/build.js"
+    },
+    "files": [
+        "ts/block.ts",
+        "ts/main.ts",
+    ]
+}

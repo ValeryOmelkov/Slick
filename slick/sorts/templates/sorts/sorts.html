@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}<link href="{% static 'games/css/card_style.css' %}" rel='stylesheet'>{% endblock %}
+{% block title %}Игры{% endblock %}
+
+
+{% block body %}
+    <div style="background-color: #e5e5e5;">
+        <div class="box">
+            <div>
+                <a href='bubble'>
+                    <div class="block">
+                        <div class="top"><img class="image_block" src="{% static 'sorts/image/bubble/iconBubble.png' %}"></div>
+                        <div class="bottom"><p class="title-block">Пузырьковая</p></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+
+{% endblock %}
